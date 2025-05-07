@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+hr {
+	border: 0;
+}
+
+body {
+	color: var(--text-secondary);
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: var(--background-primary);
+}
+
+.container {
+	display: flex;
+}

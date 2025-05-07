@@ -1,0 +1,23 @@
+:root {
+	/* Темная тема (по умолчанию */
+	--background-primary: #121212;
+	--background-secondary: #1e1e1e;
+	--text-primary: #ffffff;
+	--text-secondary: #999999;
+	--accent-primary: #632aa9;
+	--accent-secondary: #56298d;
+}
+
+:root.light {
+	/* Светлая тема */
+	--background-primary: #ffffff;
+	--background-secondary: #f5f5f5;
+	--text-primary: #333333;
+	--text-secondary: #666666;
+	--accent-primary: #632aa9;
+	--accent-secondary: #56298d;
+}
+
+* {
+	transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
