@@ -24,28 +24,31 @@
 
 ```
 src/
-├── assets/                # Статические ресурсы
+├── assets/                 # Статические ресурсы
 │   └── main.css
 │
 ├── components/
-│   ├── layout/             # Компоненты макета
+│   ├── layout/                 # Компоненты макета
 │   │   ├── Footer.vue
 │   │   └── Nav.vue
 │   │
-│   ├── sections/           # Секции резюме
-│   │   ├── Me.vue          # Боковая панель с информацией
-│   │   ├── Introduce.vue
-│   │   ├── About.vue
-│   │   ├── Services.vue
-│   │   ├── Portfolio.vue
-│   │   └── Education.vue
+│   ├── sections/               # Секции резюме
+│   │   ├── ProfileSidebar.vue
+│   │   ├── IntroduceSection.vue
+│   │   ├── AboutSection.vue
+│   │   ├── ServicesSection.vue
+│   │   ├── PortfolioSection.vue
+│   │   └── EducationSection.vue
 │   │
-│   └── ui/                # Переиспользуемые UI компоненты
-│       ├── Project.vue    # Карточка проекта
-│
+│   └── ui/                   # Переиспользуемые UI компоненты
+│       ├── ProjectCard.vue       # Карточка проекта
+│       ├── ScrollToTop.vue       # Кнопка вверх
+│       ├── ThemeToggle.vue       # Кнопка для замены темы
+│       └── TypeWriter.vue        # Печатающий текст
 │
 ├── data/                 # Данные
-│   └── projects.js       # Данные о проектах
+│   ├── projects.js           # Данные о проектах
+│   └── skills.js             # Данные о навыках
 │
 ├── App.vue               # Корневой компонент
 └── main.js

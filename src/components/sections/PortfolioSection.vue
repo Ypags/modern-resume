@@ -1,5 +1,5 @@
 <script setup>
-import Project from '../ui/project.vue'
+import Project from '../ui/ProjectCard.vue'
 import { projects } from '../../data/projects'
 </script>
 
